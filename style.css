@@ -1,24 +1,18 @@
-/* TEST LINKING */
-body {
-  /* color: red; */ /* optional test to check if linked correctly */
-}
 
-/* NAVBAR CUSTOMIZATION */
+
 .custom-navbar {
   padding: 1.2rem;
-  background-color: #1a1a1a; /* dark custom color */
+  background-color: #1a1a1a; 
 }
 
-/* FOOTER CUSTOMIZATION */
 .custom-footer {
   background-color: #111;
   font-size: 1.1rem;
 }
 
-/* HERO SECTION BACKGROUND */
 .hero-background-img {
   position: relative;
-  background: rgba(0, 0, 0, 0.3); /* overlay for readability */
+  background: rgba(0, 0, 0, 0.3); 
   padding-top: 200px;
   padding-bottom: 200px;
   text-shadow: 2px 2px 5px black;
@@ -27,7 +21,7 @@ body {
 .hero-background-img:after {
   content: "";
   position: absolute;
-  background-image: url("hero.jpg"); /* your hero image file */
+  background-image: url("hero.jpg"); 
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -39,13 +33,12 @@ body {
   opacity: 0.5;
 }
 
-/* BUTTON HOVER EFFECT */
 .btn-primary:hover {
   background-color: #0056b3;
   color: white;
 }
 
-/* OPTIONAL CUSTOM IMAGE STYLE */
+
 .img-fluid {
   box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
 }
