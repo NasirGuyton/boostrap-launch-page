@@ -4,55 +4,68 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
   <title>🚀 My Launch Page</title>
 
   <!-- BOOTSTRAP -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
-  <!-- BOOTSWATCH THEME -->
+  <!-- BOOTSTRAP THEME -->
   <link rel="stylesheet" href="https://bootswatch.com/4/cyborg/bootstrap.min.css">
-
   <!-- CUSTOM STYLES -->
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
   <!-- NAVBAR -->
-  <nav class="navbar navbar-dark bg-primary">
-    <a class="navbar-brand" href="#">🚀 Launch Page</a>
+  <nav class="navbar navbar-dark custom-navbar">
+    <a class="navbar-brand" href="#">Launch Page</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#benefits">Benefits</a></li>
+        <li class="nav-item"><a class="nav-link" href="#video">Video</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
   </nav>
 
   <!-- HERO SECTION -->
-  <header class="container text-center mt-5">
-    <h1 class="display-4">Welcome to My Launch Page</h1>
-    <p class="lead mt-3">A clean, custom Bootstrap page enhanced with a Bootswatch theme and styled by me.</p>
-    <a href="#signup" class="btn btn-primary btn-lg mt-3">Get Started</a>
+  <header class="jumbotron hero-background-img text-white text-center">
+    <div class="container">
+      <h1 class="display-4">Welcome to My Launch Page</h1>
+      <p class="lead">Check out our amazing product!</p>
+    </div>
   </header>
 
-  <!-- FORM SECTION -->
-  <section id="signup" class="container mt-5 mb-5">
-    <h2 class="mb-4">Sign Up</h2>
-
-    <form>
-      <div class="form-group">
-        <label>Email Address</label>
-        <input type="email" class="form-control custom-input" placeholder="Enter email">
+  <!-- BENEFITS SECTION -->
+  <section id="benefits" class="container mb-5 mt-5">
+    <div class="row m-5">
+      <div class="col-lg-6 offset-lg-3">
+        <img src="guitar.jpg" class="img-fluid rounded" alt="Sample Image">
       </div>
+    </div>
+  </section>
 
-      <div class="form-group">
-        <label>Password</label>
-        <input type="password" class="form-control custom-input" placeholder="Enter password">
-      </div>
-
-      <button type="submit" class="btn btn-primary custom-btn">Create Account</button>
-    </form>
+  <!-- VIDEO SECTION -->
+  <section id="video" class="container mb-5">
+    <h2 class="text-center mb-4">Watch Our Video</h2>
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" 
+              src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" 
+              allowfullscreen></iframe>
+    </div>
   </section>
 
   <!-- FOOTER -->
-  <footer class="footer-custom text-center text-white">
-    <p class="mb-0">© 2025 My Launch Page — All Rights Reserved</p>
+  <footer class="text-center text-white custom-footer py-4">
+    &copy; 2025 My Launch Page. All rights reserved.
   </footer>
 
+  <!-- BOOTSTRAP JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
