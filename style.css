@@ -1,0 +1,45 @@
+/* Test to confirm CSS is connected */
+body {
+  color: red; /* Remove this later if needed */
+}
+
+/* NAVBAR CUSTOMIZATION */
+.navbar {
+  padding: 1.2rem;
+  background-color: #007bff !important; /* override bootstrap */
+}
+
+/* FOOTER CUSTOMIZATION */
+.footer-custom {
+  background-color: #111;
+  padding: 2rem 0;
+  margin-top: 4rem;
+}
+
+/* FORM INPUT CUSTOMIZATION */
+.custom-input {
+  border-radius: 8px;
+  padding: 0.75rem;
+}
+
+/* CUSTOM BUTTON */
+.custom-btn {
+  padding: 0.7rem 2rem;
+  border-radius: 50px;
+  transition: 0.3s ease;
+}
+
+/* BUTTON HOVER EFFECT */
+.custom-btn:hover {
+  background-color: blue;
+  color: white;
+}
+
+/* HERO SECTION SPACING */
+header h1 {
+  margin-bottom: 1rem;
+}
+
+header p {
+  font-size: 1.2rem;
+}

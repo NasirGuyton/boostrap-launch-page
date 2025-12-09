@@ -4,68 +4,55 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Launch Page</title>
+
+  <title>🚀 My Launch Page</title>
 
   <!-- BOOTSTRAP -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <!-- BOOTSWATCH THEME -->
+  <link rel="stylesheet" href="https://bootswatch.com/4/cyborg/bootstrap.min.css">
+
+  <!-- CUSTOM STYLES -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
- <!-- NAVBAR -->
-<nav class="navbar navbar-expand navbar-light bg-light">
-  <a class="navbar-brand" href="#">Launch Page</a>
-  <div class="navbar-nav">
-    <a class="nav-item nav-link active" href="#">Home</a>
-    <a class="nav-item nav-link" href="#">Features</a>
-    <a class="nav-item nav-link" href="#">Pricing</a>
-  </div>
-</nav>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">🚀 Launch Page</a>
+  </nav>
 
-   
+  <!-- HERO SECTION -->
+  <header class="container text-center mt-5">
+    <h1 class="display-4">Welcome to My Launch Page</h1>
+    <p class="lead mt-3">A clean, custom Bootstrap page enhanced with a Bootswatch theme and styled by me.</p>
+    <a href="#signup" class="btn btn-primary btn-lg mt-3">Get Started</a>
+  </header>
 
-<!-- HERO -->
-<div class="jumbotron text-center p-5">
-  <h1>Launch Page</h1>
-  <p class="lead">A Fantastic Product!</p>
-  <a href="#" class="btn btn-primary">Learn More</a>
-</div>
+  <!-- FORM SECTION -->
+  <section id="signup" class="container mt-5 mb-5">
+    <h2 class="mb-4">Sign Up</h2>
 
-  <!-- BENEFITS -->
-<div class="container pb-5 pt-5">
-  <div class="row">
-    <div class="col-lg-4">
-      <h3>Safe</h3>
-      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </div>
-    <div class="col-lg-4">
-      <h3>Healthy</h3>
-      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </div>
-    <div class="col-lg-4">
-      <h3>Fun</h3>
-      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </div>
-  </div>
-</div>
+    <form>
+      <div class="form-group">
+        <label>Email Address</label>
+        <input type="email" class="form-control custom-input" placeholder="Enter email">
+      </div>
 
-  <!-- CALL TO ACTION -->
-<div class="jumbotron text-center mb-0 p-5">
-  <p class="lead mb-4">Sign Up for More Information</p>
-  <div class="d-flex justify-content-center">
-    <form action="#" class="form-inline">
-      <input type="text" class="form-control mb-2 mr-sm-2" placeholder="Email" />
-      <button type="submit" class="btn btn-primary mb-2">Submit</button>
+      <div class="form-group">
+        <label>Password</label>
+        <input type="password" class="form-control custom-input" placeholder="Enter password">
+      </div>
+
+      <button type="submit" class="btn btn-primary custom-btn">Create Account</button>
     </form>
-  </div>
-</div>
-
+  </section>
 
   <!-- FOOTER -->
-<div class="bg-secondary p-5 text-white text-center">
-  &copy; 2024 Launch Page Inc
-</div>
-
+  <footer class="footer-custom text-center text-white">
+    <p class="mb-0">© 2025 My Launch Page — All Rights Reserved</p>
+  </footer>
 
 </body>
 </html>
